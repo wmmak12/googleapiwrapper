@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "googleapiwrapper"
+version = "0.2.0"
+description = "A simple wrapper for GoogleApi "
+authors = ["ethan mak <wmmak8@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/wmmak12/googleapiwrapper"
+keywords = ["google", "api"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+google-api-python-client = "^1.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
