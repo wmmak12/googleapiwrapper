@@ -10,7 +10,7 @@ keywords = ["google", "api"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-google-api-python-client = "^1.8.0"
+google-api-python-client = "2.97.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
